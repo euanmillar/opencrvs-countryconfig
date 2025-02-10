@@ -130,7 +130,10 @@ const educationalAttainmentMessageDescriptors = {
   }
 } satisfies Record<keyof typeof EducationalAttainment, TranslationConfig>
 
-const idTypeOptions = createSelectOptions(IDTypes, idTypeMessageDescriptors)
+export const idTypeOptions = createSelectOptions(
+  IDTypes,
+  idTypeMessageDescriptors
+)
 
 const maritalStatusOptions = createSelectOptions(
   MaritalStatus,
