@@ -16,6 +16,7 @@ import {
 } from '@opencrvs/toolkit/conditionals'
 
 import { BIRTH_DECLARE_FORM } from './forms/declare'
+import { advancedSearchBirth } from './advancedSearch'
 import { Event } from '@countryconfig/form/types/types'
 
 export const birthEvent = defineConfig({
@@ -79,5 +80,6 @@ export const birthEvent = defineConfig({
         }
       ]
     }
-  ]
+  ],
+  advancedSearch: advancedSearchBirth
 })
