@@ -13,6 +13,7 @@ import { FieldConfig, or, TranslationConfig } from '@opencrvs/toolkit/events'
 import { field, not } from '@opencrvs/toolkit/conditionals'
 import { appendConditionalsToFields, createSelectOptions } from '../utils'
 import { PersonType } from './index'
+import { V2_CONFIGURATION } from '../constants'
 
 export const AddressType = {
   childResidentialAddress: 'childResidentialAddress',
@@ -254,6 +255,7 @@ export const getAddressFields = (person: AddressType): FieldConfig[] => {
       id: `${prefix}.country`,
       type: 'COUNTRY',
       required: true,
+      initialValue: V2_CONFIGURATION.DEFAULT.COUNTRY,
       label: {
         defaultMessage: 'Country',
         description: 'This is the label for the field',

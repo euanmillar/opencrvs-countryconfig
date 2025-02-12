@@ -495,6 +495,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "childResidentialAddress.address.country",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Country",
                     "description": "This is the label for the field",
@@ -2980,6 +2981,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "childOther.address.country",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Country",
                     "description": "This is the label for the field",
@@ -6243,6 +6245,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "informant.nationality",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Nationality",
                     "description": "This is the label for the field",
@@ -6933,6 +6936,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "informant.address.country",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Country",
                     "description": "This is the label for the field",
@@ -10347,6 +10351,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "mother.nationality",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Nationality",
                     "description": "This is the label for the field",
@@ -11303,6 +11308,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "mother.address.country",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Country",
                     "description": "This is the label for the field",
@@ -15848,6 +15854,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "father.nationality",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Nationality",
                     "description": "This is the label for the field",
@@ -16985,6 +16992,7 @@ exports[`birth configuration is parsed 1`] = `
                     },
                   ],
                   "id": "father.address.country",
+                  "initialValue": "FAR",
                   "label": {
                     "defaultMessage": "Country",
                     "description": "This is the label for the field",

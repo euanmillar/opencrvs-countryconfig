@@ -18,6 +18,7 @@ import {
   emptyMessage,
   MAX_NAME_LENGTH
 } from '../utils'
+import { V2_CONFIGURATION } from '../constants'
 
 export const PersonType = {
   father: 'father',
@@ -325,6 +326,7 @@ export const getPersonInputCommonFields = (
   {
     id: `${person}.nationality`,
     type: 'COUNTRY',
+    initialValue: V2_CONFIGURATION.DEFAULT.COUNTRY,
     required: true,
     label: {
       defaultMessage: 'Nationality',
